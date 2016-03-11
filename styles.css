@@ -1,0 +1,146 @@
+s/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eeeeee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+a {
+	color:crimson;
+	text-decoration:none;
+}
+
+a:hover {
+	color:red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+.wrapper {
+	padding:1em 0;
+	background: #ffffff;	
+}
+
+/* gallery
+-------------------------------------------*/
+
+.gallery {
+	 padding::;
+	 list-style:none;
+	 display:flex;
+}
+
+.gallery li {
+	margin-right: 1em;
+}
+
+.gallery img {
+	border:  6px solid #cccccc;
+}
+
+.gallery img :hover {
+	border:  6px solid pink;
+}
+
+.gallery li .item {
+	 position: relative;
+	 overflow:hidden;
+}
+
+.gallery li .item span {
+	position:absolute;
+	bottom:-50px;
+	left:0;
+	text-align:center;
+width:100%;
+background: rgba(255,255,255,0.8);
+padding: .8em 0 1.2em 0;
+transition:all 1s ease-in-out;
+}
+
+.gallery li .item:hover span {
+	 bottom:0;
+}
+
+.gallery a  {
+	display:block;
+}
+
+.gallery img {
+	display:block;
+}
+
+/* felxbox
+-------------------------------------------*/
+
+ul {
+	padding:0;
+	list-style:none;
+background:pink;
+}
+
+img {
+	display:block;
+}
+
+.gallery-1 {
+	display:flex;
+	justify-content: flex-end;
+}
+
+.gallery-2 {
+	display:flex;
+	justify-content: center;
+}
+
+.gallery-3 {
+	display:flex;
+	justify-content: space-between;
+}
+
+.gallery-4 {
+	display:flex;
+	justify-content: space-around;
+}
+
+.box {
+	flex grow:2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
